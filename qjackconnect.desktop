@@ -7,5 +7,5 @@ Exec=/usr/bin/qjackconnect
 Icon=
 Terminal=false
 Type=Application
-Categories=Application;AudioVideo;
+Categories=Audio;
 # vi: encoding=utf-8
