@@ -2,7 +2,7 @@ Summary:	Qt based patchbay for Jack Audio Connection Kit
 Summary(pl):	Oparty o Qt patchbay dla Jack Audio Connection Kit
 Name:		qjackconnect
 Version:	0.0.3b
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Sound
 URL:		http://www.suse.de/~mana/jack.html
