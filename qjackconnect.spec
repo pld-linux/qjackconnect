@@ -1,5 +1,5 @@
 Summary:	Qt based patchbay for Jack Audio Connection Kit
-Summary(pl):	Oparty o QT patchbay dla Jack Audio Connection Kit
+Summary(pl):	Oparty o Qt patchbay dla Jack Audio Connection Kit
 Name:		qjackconnect
 Version:	0.0.3b
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A Qt based patchbay for Jack Audio Connection Kit.
 
 %description -l pl
-Oparty o bibliotekê QT patchbay dla Jack Audio Connection Kit.
+Oparty o bibliotekê Qt patchbay dla Jack Audio Connection Kit.
 
 %prep
 %setup -q
