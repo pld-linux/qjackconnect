@@ -1,4 +1,5 @@
 [Desktop Entry]
+Encoding=UTF-8
 Name=QJackConnect
 Comment=Qt based patchbay for JACK
 Comment[pl]=Oparty o QT patchbay dla JACK
