@@ -34,7 +34,7 @@ Oparty o bibliotekê QT patchbay dla Jack Audio Connection Kit.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir}}
-install -c qjackconnect $RPM_BUILD_ROOT/%{_bindir}
+install -c qjackconnect $RPM_BUILD_ROOT%{_bindir}
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
