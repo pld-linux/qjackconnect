@@ -2,7 +2,7 @@ Summary:	Qt based patchbay for Jack Audio Connection Kit
 Summary(pl):	Oparty o QT patchbay dla Jack Audio Connection Kit
 Name:		qjackconnect
 Version:	0.0.3b
-Release:	0.2
+Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 URL:		http://www.suse.de/~mana/jack.html
@@ -34,8 +34,8 @@ Oparty o bibliotekê QT patchbay dla Jack Audio Connection Kit.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir}}
-install -c qjackconnect $RPM_BUILD_ROOT%{_bindir}
 
+install -c qjackconnect $RPM_BUILD_ROOT%{_bindir}
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
