@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=QJackConnect
+Comment=Qt based patchbay for JACK
+Comment[pl]=Oparty o QT patchbay dla JACK
+Exec=/usr/bin/qjackconnect
+Icon=
+Terminal=0
+Type=Application
+Categories=Application;AudioVideo;
