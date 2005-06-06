@@ -11,6 +11,7 @@ Source0:	ftp://ftp.suse.com/pub/people/mana/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 Patch0:		%{name}-paths_and_flags.patch
 BuildRequires:	XFree86-devel
+BuildRequires:	alsa-lib-devel
 BuildRequires:	jack-audio-connection-kit-devel
 BuildRequires:	qt-devel >= 3.1.2
 Provides:	jack-patchbay
