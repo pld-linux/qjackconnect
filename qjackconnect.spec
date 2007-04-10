@@ -13,7 +13,7 @@ Patch0:		%{name}-paths_and_flags.patch
 BuildRequires:	XFree86-devel
 BuildRequires:	alsa-lib-devel
 BuildRequires:	jack-audio-connection-kit-devel
-BuildRequires:	qt-devel >= 3.1.2
+BuildRequires:	qt-devel >= 6:3.1.2
 Provides:	jack-patchbay
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
