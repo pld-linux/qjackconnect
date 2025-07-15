@@ -25,7 +25,7 @@ Oparty o bibliotekę Qt patchbay dla Jack Audio Connection Kit.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} -f make_qjackconnect \
